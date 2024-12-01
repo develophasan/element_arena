@@ -1,0 +1,47 @@
+name: element_arena
+description: "A multiplayer elemental combat game"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+  firebase_database: ^10.3.8
+  google_fonts: ^6.1.0
+  flame: ^1.14.0
+  flame_audio: ^2.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/elements/
+    - assets/images/powerups/
+    - assets/images/backgrounds/
+    - assets/images/animations/
+    - assets/images/animations/fire/
+    - assets/images/animations/water/
+    - assets/images/animations/earth/
+    - assets/images/animations/air/
+    - assets/images/animations/effects/
+    - assets/audio/effects/
+    - assets/audio/music/
+    
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P-Regular.ttf
